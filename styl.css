@@ -1,0 +1,68 @@
+body {
+  background-image: url(body_background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+h1 {
+  color: #071b4d;
+  font-size: 50px;
+  font-family: Monotype Corsiva;
+  text-align: center;
+}
+
+p {
+  color: #3358b5;
+  text-align: center;
+}
+
+.formularz {
+  padding: 20px;
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+form {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+input{
+  padding: 4px 15px 4px 5px;
+  width: 280px;
+}
+
+#button {
+  display: inline-block;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color:#000;
+}
+
+.klikniecie {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+ }
